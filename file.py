@@ -8,7 +8,7 @@ from dict import sel_books
 from dict import dic_book
 
 a=np.load('data_array1.npy')
-from scikit-learn.metrics.pairwise import cosine_similarity
+from sklearn.metrics.pairwise import cosine_similarity
 
 def bert_recommend(target_book_title):
     target_book_index = dic_book.index(target_book_title)
