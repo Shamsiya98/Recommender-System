@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np 
 import streamlit as st
 import pandas as pd
-import pickle
 from dict import selected_books,d
 from dict import sel_books
 from dict import dic_book
